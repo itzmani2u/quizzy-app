@@ -1,0 +1,6 @@
+#score-box {
+  display: none;
+}
+.score-box h3 {
+  font-size: 25px;
+}

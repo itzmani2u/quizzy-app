@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quizzy App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <form class="col col-md-12 col-lg-8">
+                <h1 class="display-2 mb-4">Quizzy App</h1>
+                <div id="questions">
+
+                </div>
+                <div id="score-box" class="text-white card mb-3 p-3 score-box">
+                    <h3 class="display-4">Score : <span id="correctAswers"></span>/<span id="totalQuestions"></span></h3>
+                    <h3 class="display-4">Percentage : <span id="finalScore"></span>%</h3>
+                </div>
+                <button id="btnSubmit" class="btn btn-lg mb-4 btn-primary" onclick="evaluateQuiz(event)">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
